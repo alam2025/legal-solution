@@ -48,6 +48,14 @@
     
 }
 
+.contact-info>div{
+    background-color: #F3F3F3;;
+}
+
+.input-backColor{
+    background-color: #F3F3F3 !important;
+}
+
 @media screen and (min-width:577px) and (max-width:992px) {
     .w-md-75{
         max-width: 75%;
