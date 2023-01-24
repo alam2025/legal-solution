@@ -13,7 +13,6 @@
 
 .bg-linear-gradient{
     background-image:  linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);;
-    /* background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%) !important; */
 }
 
 .carousel-item {
@@ -24,9 +23,27 @@
     height: 100%;
 }
 
+.accordion{
+    --bs-accordion-active-bg: (--bs-transparent) !important;
+  
+}
+
+
+.accordion-item{
+    background-color: #F3F3F3 !important;
+}
+
+.accordion-header{
+    margin-bottom: 15px !important;
+}
+
 @media screen and (max-width:576px) {
     .w-sm-100{
         max-width: 100%;
+    }
+    .carousel-item {
+        height: auto;
+    
     }
     
 }
@@ -44,6 +61,12 @@
     }
     .w-lg-75{
         max-width: 75%;
+    }
+    .w-lg-60{
+        max-width: 60%;
+    }
+    .w-lg-40{
+        max-width: 40%;
     }
     
 }
