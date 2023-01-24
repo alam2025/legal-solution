@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.btn-hover:hover{
+    background-color: #fff !important; 
+}
 
 .card{
     background-color: transparent !important;
@@ -37,17 +40,6 @@
     margin-bottom: 15px !important;
 }
 
-@media screen and (max-width:576px) {
-    .w-sm-100{
-        max-width: 100%;
-    }
-    .carousel-item {
-        height: auto;
-    
-    }
-    
-}
-
 .contact-info>div{
     background-color: #F3F3F3;;
 }
@@ -56,25 +48,38 @@
     background-color: #F3F3F3 !important;
 }
 
+@media screen and (max-width:576px) {
+    .w-sm-100{
+        width: 100%;
+    }
+    .carousel-item {
+        height: auto;
+    
+    }
+    
+}
+
+
+
 @media screen and (min-width:577px) and (max-width:992px) {
     .w-md-75{
-        max-width: 75%;
+        width: 75%;
     }
    
 }
 
 @media screen and (min-width:993px) {
     .w-lg-50{
-        max-width: 50%;
+        width: 50% ;
     }
     .w-lg-75{
-        max-width: 75%;
+        width: 75%;
     }
     .w-lg-60{
-        max-width: 60%;
+        width: 60%;
     }
     .w-lg-40{
-        max-width: 40%;
+        width: 40%;
     }
     
 }

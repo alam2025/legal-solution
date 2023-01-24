@@ -31,9 +31,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
                         <li class="nav-item mx-1">
-                            <a class="nav-link active" aria-current="page" href="#">Home <img class=""
+                            <a class="nav-link  active " aria-current="page" href="#">Home <img class=""
                                     src="images/right-align.png" alt=""></a>
                         </li>
                         <li class="nav-item mx-1">
@@ -53,7 +53,34 @@
 
                     </ul>
 
-                    <button class="btn btn-outline-success" type="submit">Free Consultation</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-success btn-hover  bg-warning text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Free Consultation
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Information</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Hi, This is Alam Hossain a passioniate web developer abd designer. Also expert in CGPA generator.
+                                    <p>To learn With me :<a href="https://www.youtube.com/channel/UCySW6fqDfY4jL-BLTgtFlZQ" target="_blank">Enjoy Study</a></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <a href="https://www.youtube.com/channel/UCySW6fqDfY4jL-BLTgtFlZQ" target="_blank"><button type="button" class="btn btn-primary">Subscribe</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -347,20 +374,20 @@
         </section>
 
         <!-- Contact With Us  -->
-        <section class="contact">
+        <section class="contact my-5 py-2">
             <div class="w-lg-75 w-md-75 w-sm-100 text-center mx-auto p-lg-5">
-                <h1>What Our Client Say</h1>
+                <h1>Contact With Us</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour..</p>
+                    alteration in some form, by injected humour.</p>
             </div>
 
-            <div class="d-flex justify-content-center align-items-center gap-5">
-                <div class="contact-info mb-5 row w-50">
+            <div class="d-lg-flex flex-sm-column-reverse flex-lg-row justify-content-center align-items-center gap-5">
+                <div class="contact-info mb-5 row  w-lg-50">
 
                     <div class="col-sm-12 col-lg-6 col-md-6 text-center  px-5  border border-top-0 border-start-0 ">
                         <img src="images/location.png" alt="">
                         <h5 class=" mt-2 ">Address</h5>
-                        <p class="lh-base fs-6">A108 Adam Street, New York, NY 535022.</p>
+                        <p class="lh-base fs-6">A108 Adam Street, <br> New York, NY 535022.</p>
                         <img class="py-4" src="images/Frame.png" alt="">
                     </div>
 
@@ -372,8 +399,7 @@
                         <img class="py-4" src="images/Frame.png" alt="">
                     </div>
 
-                    <div
-                        class="col-sm-12 col-lg-6 col-md-6 text-center  px-5   border border-bottom-0 border-start-0">
+                    <div class="col-sm-12 col-lg-6 col-md-6 text-center  px-5   border border-bottom-0 border-start-0">
                         <img src="images/email.png" alt="">
                         <h5 class=" mt-2 ">Email Us</h5>
                         <p class="lh-base fs-6">info@gmail.com <br> info@gmail.com</p>
@@ -389,7 +415,7 @@
                     </div>
                 </div>
 
-                <div class="w-50">
+                <div class="w-lg-50">
                     <form class=" py-4">
                         <div class="mb-3">
 
@@ -415,7 +441,8 @@
                         </div>
 
                         <div class="d-grid gap-2">
-                            <button style="background-color: #B68C5A;;" class="btn btn-primary text-white " type="button">Send Message</button>
+                            <button style="background-color: #B68C5A;;" class="btn btn-primary text-white "
+                                type="button">Send Message</button>
 
                         </div>
 
