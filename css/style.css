@@ -1,0 +1,10 @@
+.banner{
+    background-image: url('../images/banner.png');
+}
+
+.card{
+    background-color: transparent !important;
+}
+.card-title, .card-text{
+    color: #fff !important;
+}
