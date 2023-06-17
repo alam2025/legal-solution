@@ -2,4 +2,4 @@
 
 
 ## Live Link
- [Legal Solution](https://lambent-kataifi-e5f15b.netlify.app/"websiteurl")
+ [Legal Solution](https://lambent-kataifi-e5f15b.netlify.app/)
